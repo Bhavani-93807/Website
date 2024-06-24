@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'poppins', 'san-serif';
+    box-sizing: border-box;
+}
+body{
+    /* background: rgb(0, 0, 255); */
+    color:rgb(255, 255, 255)
+
+}
+#header{
+    height: 100px;
+    width:100px;
+    background-position: center;
+    background-size: cover;
+
+}
+/* Navbar */
+
+.portfolio-navbar{
+    background-color: #020B4A !important;
+   
+}
+.nav-link, .navbar-brand{
+    color: #57feff !important;
+    font-family: "Roboto";
+   
+}
+
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
