@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 body{
-    /* background: rgb(0, 0, 255); */
+    background-color: #020B4A !important;
     color:rgb(255, 255, 255)
 
 }
@@ -37,12 +37,33 @@ body{
 }
 .fa {
     padding: 20px;
-    font-size: 20px;
+    font-size: 25px;
     width: 30px;
     text-align: center;
     text-decoration: none;
     
     
   }
-  
+  .footer-container
+  {
+ border: 2px solid #57feff;
+  border-radius: 3px;
+  padding: 2px;
+  min-height: 250px;
+}
+
+
+.feedback-container{
+    display: flex;
+    flex-direction: column;
+    max-width:650px;
+}
+.feedback-heading{
+    color:aliceblue;
+}
+.profession-container,.contact-container{
+    color:aliceblue;
+}
+
+    
   
