@@ -35,6 +35,21 @@ body{
     font-weight: 900;
     font-style: italic;
 }
+.navbar-brand{
+    font-weight: normal;
+    font-size: 24px;
+    border-width: 2px;
+    border-color: #fff;
+    border-style: solid;
+    padding: 8px 12px;
+    font-style: italic;
+    font-family: "cursive";
+    background-color: #ff004f;
+    border-radius: 4px 2px 6px 8px;
+    line-height: inherit;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
 .fa {
     padding: 20px;
     font-size: 25px;
@@ -64,6 +79,41 @@ body{
 .profession-container,.contact-container{
     color:aliceblue;
 }
+.Objective-container{
+    border: 2px solid white;
+    border-radius: 3px;
+    padding: 2px;
+    min-height: 250px;
+    background-color: aliceblue;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      img {
+        max-width: 250px;
+        max-height:250px;
+        float:left;
+      }
+      
+      .text {
+        font-size: 20px;
+        padding-top: 15px;
+        padding-inline-start: 100px;
+        float: right ;
+        color: #020B4A;
+        margin-top: 0;
+        box-sizing: border-box;
+      }
+      .container-fluid{
+        background-color: #020B4A;
+        color: #57FEFF;
+        display: block;
+      }
+    
+
+
 
     
   
