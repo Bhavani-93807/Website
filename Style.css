@@ -106,20 +106,36 @@ body{
         margin-top: 0;
         box-sizing: border-box;
       }
-      .container-fluid,.education-container{
+      .education-details{
         background-color: #020B4A;
         color: #57FEFF;
-        display: block;
+        display: flex;
+        flex-direction: row;
        }
        .university-image{
-        max-width: 250px;
-        max-height:250px;
-        float:left;
-       }
-      
-    
-
-
-
+        img {
+            max-width: 600px;
+            max-height: 200px;
+            float:left;
+          }
+    }
+    .college-details{
+        list-style-type:none;
+         float:inline-start;
+         font-size: x-large;
+    }
+    .graduation-image{
+        .university-image{
+            img {
+                max-width: 400px;
+                max-height:600px;
+                float:right;
+              }
+    }
     
   
+    }
+    .technical-container{
+       background-color: #1aad15;
+    }
+    
